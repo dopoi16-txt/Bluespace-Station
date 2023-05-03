@@ -4,7 +4,7 @@
     "x": 32,
     "y": 32
   },
-  "copyright": "Taken from tgstation",
+  "copyright": "Taken from tgstation, bui + bui_door + bui_open from https://github.com/fedKotikeD-org/Bluespace-station/ made by dopoi16-txt",
   "license": "CC-BY-SA-3.0",
   "states": [
     {
@@ -498,6 +498,24 @@
     },
     {
       "name": "yellow_door"
+    },
+    {
+      "name": "bui"
+    },
+    {
+      "name": "bui_door"
+    },
+    {
+      "name": "bui_open"
+    },
+    {
+      "name": "blueshield"
+    },
+    {
+      "name": "blueshield_door"
+    },
+    {
+      "name": "blueshield_open"
     }
   ]
 }

@@ -572,3 +572,15 @@
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
     state: stamp-ce
+
+- type: entity
+  name: blue shield's rubber stamp
+  parent: RubberStampMime
+  id: RubberStampBlueshield
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-blueshield
+    stampState: "paper_stamp-blueshield"
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: stamp-blue

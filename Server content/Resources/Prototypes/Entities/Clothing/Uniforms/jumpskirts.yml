@@ -663,3 +663,14 @@
       sprite: Clothing/Uniforms/Jumpskirt/lawyergood.rsi
     - type: Clothing
       sprite: Clothing/Uniforms/Jumpskirt/lawyergood.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtBlueshield
+  name: blue shield's jumpskirt
+  description: A suit strong enough to withstand hundreds of bullets while protecting the ward.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/blueshield.rsi

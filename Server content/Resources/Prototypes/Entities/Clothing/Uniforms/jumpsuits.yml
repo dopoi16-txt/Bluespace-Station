@@ -1065,3 +1065,25 @@
     sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
   - type: AddAccentClothing
     accent: PirateAccent
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBuilder
+  name: builder jumpsuit
+  description: Covered in dust and construction foam.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/builder.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/builder.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueshield
+  name: blue shield's jumpsuit
+  description: A suit strong enough to withstand hundreds of bullets while protecting the ward.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi

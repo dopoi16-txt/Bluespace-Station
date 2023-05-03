@@ -276,3 +276,18 @@
   description:  A cursed pair of cluwne hands.
   components:
   - type: Unremoveable
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesBlueshield
+  name: blue shield gloves
+  description: Stylish Bodyguard Gloves.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/blueshield.rsi
+  - type: GloveHeatResistance
+    heatResistance: 3000
+  - type: Insulated
+  - type: FingerprintMask

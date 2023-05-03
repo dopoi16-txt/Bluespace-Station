@@ -32,3 +32,5 @@ ent-ThievingGloves = { ent-ClothingHandsGlovesColorBlack }
 ent-ClothingHandsGlovesCluwne = руки клувеня
     .desc = Проклятая пара рук клувеня.
     .suffix = Неснимаемый
+ent-ClothingHandsGlovesBlueshield = перчатки офицера синего щита
+    .desc = Стильные перчатки телохранителя.

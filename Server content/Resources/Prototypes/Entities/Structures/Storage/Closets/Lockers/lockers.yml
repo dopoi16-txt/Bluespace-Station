@@ -78,6 +78,20 @@
   - type: AccessReader
     access: [["HeadOfPersonnel"]]
 
+- type: entity
+  id: LockerBlueshield
+  parent: LockerBaseSecure
+  name: blue shield's locker
+  components:
+  - type: Appearance
+    visuals:
+    - type: StorageVisualizer
+      state: blueshield
+      state_open: blueshield_open
+      state_closed: blueshield_door
+  - type: AccessReader
+    access: [["Captain"]]
+
 # CE
 - type: entity
   id: LockerChiefEngineer
@@ -150,6 +164,21 @@
       state: eng_secure
       state_open: eng_secure_open
       state_closed: eng_secure_door
+  - type: AccessReader
+    access: [ [ "Engineering" ] ]
+
+#Builder
+- type: entity
+  id: LockerBuilder
+  parent: LockerBase
+  name: builder's locker
+  components:
+  - type: Appearance
+    visuals:
+    - type: StorageVisualizer
+      state: bui
+      state_open: bui_open
+      state_closed: bui_door
   - type: AccessReader
     access: [ [ "Engineering" ] ]
 

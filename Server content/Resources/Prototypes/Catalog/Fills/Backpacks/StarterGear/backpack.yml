@@ -205,6 +205,17 @@
       - id: HandLabeler
       - id: BoxForensicPad
 
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackBuilder
+  id: ClothingBackpackBuilderFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalEngineering
+      - id: RCD
+      - id: RCDAmmo
+
 # ERT
 
 - type: entity
@@ -298,3 +309,14 @@
         - id: Cutlass
         - id: WeaponRevolverPirate
         - id: ClothingEyesEyepatch
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackBlueshield
+  id: ClothingBackpackBlueshieldFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvival
+      - id: Flash
+      - id: WeaponPistolMk58

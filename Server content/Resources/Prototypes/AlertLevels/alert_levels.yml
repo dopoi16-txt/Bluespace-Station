@@ -61,3 +61,15 @@
       emergencyLightColor: DarkViolet
       forceEnableEmergencyLights: true
       shuttleTime: 1200
+    alpha:
+      announcement: alert-level-alpha-announcement
+      selectable: false
+      sound:
+        path: /Audio/Misc/delta.ogg
+        params:
+          volume: -6
+      disableSelection: true
+      color: DarkRed
+      emergencyLightColor: DarkViolet
+      forceEnableEmergencyLights: true
+      shuttleTime: 3600

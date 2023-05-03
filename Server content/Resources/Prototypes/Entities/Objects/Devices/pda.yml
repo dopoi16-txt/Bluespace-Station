@@ -761,3 +761,34 @@
         - Write
   - type: Unremoveable
 
+- type: entity
+  parent: BasePDA
+  id: BuilderPDA
+  name: builder PDA
+  description: It smells like construction dust.
+  components:
+  - type: PDA
+    id: BuilderIDCard
+    state: pda-builder
+  - type: Icon
+    state: pda-builder
+
+- type: entity
+  parent: BasePDA
+  id: BlueshieldPDA
+  name: blue shield PDA
+  description: Surprisingly no different from your PDA.
+  components:
+  - type: PDA
+    id: BlueshieldIDCard
+    state: pda-blueshield
+    penSlot:
+      startingItem: CyberPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PDABorderColor
+    borderColor: "#7C5D00"
+  - type: Icon
+    state: pda-blueshield

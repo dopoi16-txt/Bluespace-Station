@@ -58,3 +58,5 @@ ent-ClothingHeadHelmetHardsuitERTJanitor = шлем скафандра убор�
     .desc = { ent-ClothingHeadHelmetHardsuitERTLeader.desc }
 ent-ClothingHeadHelmetHardsuitClown = шлем скафандра клоуна
     .desc = Шлем скафандра клоуна.
+ent-ClothingHeadHelmetHardsuitBlue = шлем скафандра синего щита
+    .desc = Специальный защитный шлем, изготовленный для стража станции.

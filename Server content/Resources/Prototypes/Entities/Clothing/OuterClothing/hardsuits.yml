@@ -17,12 +17,12 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.2
-        Radiation: 0.25
-        Caustic: 0.85
+        Blunt: 0.01
+        Slash: 0.01
+        Piercing: 0.05
+        Heat: 0.1
+        Radiation: 0.001
+        Caustic: 0.7
   - type: TemperatureProtection
     coefficient: 0.001
   - type: ExplosionResistance
@@ -842,3 +842,33 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitBlue
+  name: blue shield's armored spacesuit
+  description: A formal armored spacesuit, made for the station's guardian.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/blue.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/blue.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 0.99
+    sprintModifier: 0.99
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.99
+        Heat: 0.7
+        Radiation: 1.0
+        Caustic: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitBlue

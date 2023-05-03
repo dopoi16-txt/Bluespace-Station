@@ -1,4 +1,18 @@
-# Last match in file takes precedence.
+# New CODEOWNER by maintainers
 
-# Ping for all PRs
-* @fedKotikeD
+#fedKotikeD's part
+.github/** @fedKotikeD
+INFO/** @fedKotikeD
+**/Resources/Locale/** @fedKotikeD
+**/Resources/Textures/**/meta.json @fedKotikeD
+**/Resources/Prototypes/Role/** @fedKotikeD
+**/Resources/Entities/** @fedKotikeD
+
+#OMGazk88's part
+**/Resources/Textures/** @OMGazk88
+**/Resources/Audio/** @OMGazk88
+
+#both
+other/** @fedKotikeD @OMGazk88
+#Server content/ @fedKotikeD @OMGazk88
+#enable it if needed

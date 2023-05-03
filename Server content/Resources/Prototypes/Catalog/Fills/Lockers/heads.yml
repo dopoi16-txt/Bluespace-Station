@@ -89,6 +89,7 @@
       - id: RubberStampHop
       - id: BoxEncryptionKeyPassenger
       - id: BoxEncryptionKeyService
+      - id: RubberStampOutOfShape
 
 - type: entity
   id: LockerChiefEngineerFilled
@@ -214,3 +215,22 @@
       - id: JetpackSecurityFilled
       - id: BoxEncryptionKeySecurity
       - id: HoloprojectorSecurity
+
+- type: entity
+  id: LockerBlueshieldFilled
+  suffix: Filled
+  parent: LockerBlueshield
+  components:
+  - type: StorageFill
+    contents:
+      - id: PinpointerNuclear
+      - id: ClothingHeadHatCaptain
+      - id: ClothingHandsGlovesBlueshield
+      - id: ClothingOuterHardsuitBlue
+      - id: ClothingMaskGasCentcom
+      - id: WeaponDisabler
+      - id: CommsComputerCircuitboard
+      - id: ClothingHeadsetBlueshield
+      - id: DoorRemoteCommand
+      - id: ClothingNeckGoldmedal
+      - id: RubberStampBlueshield
