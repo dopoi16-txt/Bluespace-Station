@@ -291,18 +291,6 @@
       - state: green
       - state: hop
 
-- type: entity
-  id: SpawnPointBlueshield
-  parent: SpawnPointJobBase
-  name: blueshield
-  components:
-  - type: SpawnPoint
-    job_id: Blueshield
-  - type: Sprite
-    layers:
-      - state: green
-      - state: captain
-
 # Engineering
 
 - type: entity
@@ -341,18 +329,6 @@
         - state: green
         - state: atmospherics
 
-- type: entity
-  id: SpawnPointBuilder
-  parent: SpawnPointJobBase
-  name: builder
-  components:
-  - type: SpawnPoint
-    job_id: Builder
-  - type: Sprite
-    layers:
-    - state: green
-    - state: engineer
-
 # Medical
 
 - type: entity
@@ -378,6 +354,18 @@
     layers:
       - state: green
       - state: doctor
+      
+- type: entity
+  id: SpawnPointParamedic
+  parent: SpawnPointJobBase
+  name: paramedic
+  components:
+  - type: SpawnPoint
+    job_id: Paramedic
+  - type: Sprite
+    layers:
+      - state: green
+      - state: paramedic
 
 - type: entity
   id: SpawnPointChemist
@@ -472,12 +460,10 @@
   parent: SpawnPointJobBase
   name: brigmedic
   components:
-  - type: SpawnPoint
-    job_id: Brigmedic
   - type: Sprite
     layers:
       - state: green
-      - state: brigmed
+      - state: brigmedic
 
 # SPECIAL
 # ERT

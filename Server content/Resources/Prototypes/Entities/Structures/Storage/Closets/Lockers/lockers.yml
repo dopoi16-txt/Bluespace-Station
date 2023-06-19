@@ -78,20 +78,6 @@
   - type: AccessReader
     access: [["HeadOfPersonnel"]]
 
-- type: entity
-  id: LockerBlueshield
-  parent: LockerBaseSecure
-  name: blue shield's locker
-  components:
-  - type: Appearance
-    visuals:
-    - type: StorageVisualizer
-      state: blueshield
-      state_open: blueshield_open
-      state_closed: blueshield_door
-  - type: AccessReader
-    access: [["Captain"]]
-
 # CE
 - type: entity
   id: LockerChiefEngineer
@@ -167,21 +153,6 @@
   - type: AccessReader
     access: [ [ "Engineering" ] ]
 
-#Builder
-- type: entity
-  id: LockerBuilder
-  parent: LockerBase
-  name: builder's locker
-  components:
-  - type: Appearance
-    visuals:
-    - type: StorageVisualizer
-      state: bui
-      state_open: bui_open
-      state_closed: bui_door
-  - type: AccessReader
-    access: [ [ "Engineering" ] ]
-
 # Freezer
 - type: entity
   id: LockerFreezer
@@ -245,6 +216,22 @@
       state_closed: med_secure_door
   - type: AccessReader
     access: [ [ "Medical" ] ]
+
+# Paramedic
+- type: entity
+  id: LockerParamedic
+  parent: LockerBase
+  name: paramedic's locker
+  components:
+  - type: Appearance
+    visuals:
+    - type: StorageVisualizer
+      state: paramed
+      state_open: paramed_open
+      state_closed: paramed_door
+  - type: AccessReader
+    access: [ [ "Medical" ] ]
+
 
 # Chemical
 - type: entity
@@ -334,6 +321,21 @@
       state_closed: warden_door
   - type: AccessReader
     access: [["Armory"]]
+
+# Brigmedic
+- type: entity
+  id: LockerBrigmedic
+  parent: LockerBaseSecure
+  name: brigmedic locker
+  components:
+  - type: Appearance
+    visuals:
+    - type: StorageVisualizer
+      state: brigmedic
+      state_open: armory_open
+      state_closed: brigmedic_door
+  - type: AccessReader
+    access: [["Medical"]]
 
 # Security Officer
 - type: entity

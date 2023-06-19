@@ -22,26 +22,3 @@
     sprite: Objects/Misc/bureaucracy.rsi
     state: stamp-psychologist
     
-- type: entity
-  name: admin's rubber stamp
-  parent: RubberStampMime
-  id: RubberStampAdmin
-  components:
-  - type: Stamp
-    stampedName: stamp-component-stamped-name-admin
-    stampState: "paper_stamp-admin"
-  - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
-    state: stamp-iaa
-
-- type: entity
-  name: OUT OF SHAPE stamp
-  parent: RubberStampMime
-  id: RubberStampOutOfShape
-  components:
-  - type: Stamp
-    stampedName: stamp-component-stamped-name-out_of_shape
-    stampState: "paper_stamp-out_of_shape"
-  - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
-    state: stamp-out_of_shape

@@ -24,4 +24,12 @@
 - '**/*.ftl'
 
 "File: Entity":
-- 'Server content/Resources/Prototyes/Entities/**'
+- 'Server content/Resources/Prototypes/Entities/**'
+
+"File: PROJECT EXCLUSIVE":
+- 'Server content/**/mark'
+- 'Server content/**/Bluespace-content/**'
+
+"NOT TO MERGE":
+- '**/SECURITY.md'
+- '**/LICENSE.txt'

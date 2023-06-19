@@ -117,25 +117,3 @@
         amount: 2
       - id: GeigerCounter
         amount: 2
-
-- type: entity
-  id: LockerBuilderFilled
-  suffix: Filled
-  parent: LockerBuilder
-  components:
-  - type: StorageFill
-    contents:
-      - id: ClothingOuterHardsuitEngineering
-      - id: ClothingHandsGlovesColorYellow
-      - id: ClothingMaskGas
-      - id: AirTankFilled
- 
-      - id: ClothingShoesBootsMagAdv
-      - id: RCDAmmo
-      - id: RCDAmmo
-      - id: SheetSteel
-      - id: SheetSteel
-      - id: SheetPlastic
-      - id: SheetPlastic
-      - id: SheetPlasteel
-      - id: SheetPlasteel

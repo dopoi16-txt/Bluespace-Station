@@ -150,18 +150,6 @@
 
 - type: entity
   parent: IDCardStandard
-  id: BuilderIDCard
-  name: builder ID card
-  components:
-  - type: Sprite
-    layers:
-    - state: default
-    - state: idbuilder
-  - type: PresetIdCard
-    job: Builder
-
-- type: entity
-  parent: IDCardStandard
   id: MedicalIDCard
   name: medical ID card
   components:
@@ -171,6 +159,18 @@
     - state: idmedicaldoctor
   - type: PresetIdCard
     job: MedicalDoctor
+
+- type: entity
+  parent: IDCardStandard
+  id: ParamedicIDCard
+  name: paramedic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idparamedic
+  - type: PresetIdCard
+    job: Paramedic
 
 - type: entity
   parent: IDCardStandard
@@ -412,15 +412,13 @@
 
 - type: entity
   parent: IDCardStandard
-  id: BrigmedIDCard
+  id: BrigmedicIDCard
   name: brigmedic ID card
   components:
   - type: Sprite
     layers:
     - state: default
     - state: idbrigmedic
-  - type: PresetIdCard
-    job: Brigmedic
 
 - type: entity
   parent: IDCardStandard
@@ -615,15 +613,3 @@
   - type: IdCard
     jobTitle: Cluwne
   - type: Unremoveable
-
-- type: entity
-  parent: CentcomIDCard
-  id: BlueshieldIDCard
-  name: blue shield ID card
-  components:
-  - type: Sprite
-    layers:
-    - state: default
-    - state: idblueshield
-  - type: PresetIdCard
-    job: Blueshield

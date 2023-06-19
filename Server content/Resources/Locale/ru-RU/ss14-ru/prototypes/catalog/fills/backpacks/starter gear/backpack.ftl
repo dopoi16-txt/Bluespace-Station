@@ -18,5 +18,3 @@ ent-ClothingBackpackMimeFilled = { ent-ClothingBackpackMime }
     .desc = { ent-ClothingBackpackMime.desc }
 ent-ClothingBackpackChemistryFilled = { ent-ClothingBackpackChemistry }
     .desc = { ent-ClothingBackpackChemistry.desc }
-ent-ClothingBackpackBlueshieldFilled = { ent-ClothingBackpackBlueshield }
-    .desc = { ent-ClothingBackpackBlueshield.desc }

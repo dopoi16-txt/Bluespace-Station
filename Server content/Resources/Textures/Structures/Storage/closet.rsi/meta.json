@@ -4,7 +4,7 @@
     "x": 32,
     "y": 32
   },
-  "copyright": "Taken from tgstation, bui + bui_door + bui_open from https://github.com/fedKotikeD-org/Bluespace-station/ made by dopoi16-txt",
+  "copyright": "Taken from tgstation, brigmedic locker is a resprited CMO locker by PuroSlavKing (Github)",
   "license": "CC-BY-SA-3.0",
   "states": [
     {
@@ -27,6 +27,12 @@
     },
     {
       "name": "alien_open"
+    },
+    {
+      "name": "brigmedic_door"
+    },
+    {
+      "name": "brigmedic"
     },
     {
       "name": "armory"
@@ -387,6 +393,15 @@
       "name": "orange_door"
     },
     {
+      "name": "paramed"
+    },
+    {
+      "name": "paramed_door"
+    },
+    {
+      "name": "paramed_open"
+    },
+    {
       "name": "pink_door"
     },
     {
@@ -498,24 +513,6 @@
     },
     {
       "name": "yellow_door"
-    },
-    {
-      "name": "bui"
-    },
-    {
-      "name": "bui_door"
-    },
-    {
-      "name": "bui_open"
-    },
-    {
-      "name": "blueshield"
-    },
-    {
-      "name": "blueshield_door"
-    },
-    {
-      "name": "blueshield_open"
     }
   ]
 }

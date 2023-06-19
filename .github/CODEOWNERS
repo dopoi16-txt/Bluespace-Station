@@ -1,18 +1,25 @@
 # New CODEOWNER by maintainers
 
 #fedKotikeD's part
-.github/** @fedKotikeD
-INFO/** @fedKotikeD
-**/Resources/Locale/** @fedKotikeD
-**/Resources/Textures/**/meta.json @fedKotikeD
-**/Resources/Prototypes/Role/** @fedKotikeD
-**/Resources/Entities/** @fedKotikeD
+.github/** @fedKotikeD #github
+INFO/** @fedKotikeD #INFO
+*/Resources/Locale/Bluespace-content/** @fedKotikeD #project translate
+*/Resources/Textures/**/meta.json @fedKotikeD #meta
+*/Resources/Prototypes/Bluespace-content/** @fedKotikeD #project proto
+*/Resources/Prototypes/Entities/** @fedKotikeD #entities
+*/Resources/Textures/Bluespace-content/** @fedKotikeD #project textures
+*/CHANGES.md @fedKotikeD
+*/SECURITY.md @fedKotikeD
+*/LICENSE.txt @fedKotikeD
 
-#OMGazk88's part
-**/Resources/Textures/** @OMGazk88
-**/Resources/Audio/** @OMGazk88
+#dopoi16-txt's part
+*/Resources/Textures/Bluespace-content/Clothing/** @dopoi16-txt #project textures clothing
+*/Resources/Audio/** @dopoi16-txt #music & sounds
+*/Resources/Maps/** @dopoi16-txt #maps
+*/Resources/Locale/** @dopoi16-txt #translate
 
 #both
-other/** @fedKotikeD @OMGazk88
-#Server content/ @fedKotikeD @OMGazk88
-#enable it if needed
+other/** @fedKotikeD @dopoi16-txt #other
+*/mark @fedKotikeD @dopoi16-txt #marks
+*/Bluespace-content/** @fedKotikeD @dopoi16-txt #all exclusive
+*/README.md @fedKotikeD @dopoi16-txt
