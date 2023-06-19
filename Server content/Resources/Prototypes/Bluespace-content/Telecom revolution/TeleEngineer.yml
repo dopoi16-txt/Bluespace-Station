@@ -1,0 +1,71 @@
+- type: job
+  id: TeleEngineer
+  name: job-name-TeleEngineer
+  description: job-description-TeleEngineer
+  playTimeTracker: JobTeleEngineer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 60000 # Corvax-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 1000 # Corvax-RoleTime
+    - !type:OverallPlaytimeRequirement
+      time: 324000 # Corvax-RoleTime
+  weight: 20
+  startingGear: TeleEngineerGear
+  icon: "Captain"
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  accessGroups:
+  - Telecomm
+  - Command
+  - Engineering
+  - Atmospherics
+  - External
+  - Maintenance
+
+- type: startingGear
+  id: TeleEngineerGear
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+    jumpsuit: ClothingUniformJumpsuitEngineering
+    back: ClothingBackpackEngineeringFilled
+    shoes: ClothingShoesBootsWork
+    outerClothing: ClothingOuterVestHazard
+    id: TeleEngineerPDA
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltUtilityFilled
+    ears: ClothingHeadsetEngineering
+  innerclothingskirt: ClothingUniformJumpskirtEngineering
+  satchel: ClothingBackpackSatchelEngineeringFilled
+  duffelbag: ClothingBackpackDuffelEngineeringFilled
+
+- type: entity
+  parent: BasePDA
+  id: TeleEngineerPDA
+  name: TeleEngineer PDA
+  description: I don't hear you.
+  components:
+  - type: PDA
+    id: TeleEngineerIDCard
+    state: pda-engineer
+  - type: Icon
+    state: pda-engineer
+
+- type: entity
+  parent: IDCardStandard
+  id: TeleEngineerIDCard
+  name: TeleEngineer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idstationengineer
+  - type: PresetIdCard
+    job: TeleEngineer
+
+- type: playTimeTracker
+  id: JobTeleEngineer

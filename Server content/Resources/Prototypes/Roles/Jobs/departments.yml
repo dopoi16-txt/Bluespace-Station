@@ -47,6 +47,8 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
+  - Blueshield
+  - TeleEngineer
 
 - type: department
   id: Engineering
@@ -57,6 +59,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  - Builder
 
 - type: department
   id: Medical
